@@ -1,0 +1,217 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static '/css/ieib.css' %}">
+    <link rel="stylesheet" href="{% static '/css/footer.css' %}">
+    <title>aboutIEI/benefits/</title>
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="/">CivilERA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="about/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'about_history'  %}">HISTORY</a>
+          <a class="dropdown-item" href="{% url 'about_vision'  %}">VISION</a>
+          <a class="dropdown-item" href="{% url 'about_team'  %}">TEAM</a>
+          <a class="dropdown-item" href="{% url 'about_alumni' %}">ALUMNI</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'events'  %}">Events</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'gallery'  %}">Gallery</a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="aboutIEI/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          AboutIEI
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url  'aboutIEI_benefits'  %}">IEI</a>
+          <a class="dropdown-item" href="{% url 'aboutIEI_membership'  %}">MEMBERSHIP</a>
+        </div>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'contactus' %}">Contactus</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!--crousel-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="{% static 'images/ieic.jpeg' %}" class="d-block w-100" alt="...">
+    </div>
+    
+  </div>
+</div>
+ 	
+ 	<!-- Start introduction -->
+ <!--================ Start iei Details Area =================-->
+    <section class="course_details_area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 course_details_left">
+                    <div class="main_image">
+                        <img class="img-fluid" src="img/courses/course-details.jpg" alt="">
+                    </div>
+                    <div class="content_wrapper">
+                        <h4 class="title">What is IEI?</h4>
+                        <div class="content">
+                           The Institution of Engineers (India) is a statutory body to promote and advance the engineering and technology, established in 1920 and incorporated by Royal Charter in 1935. It is the largest multi-disciplinary professional body of engineers encompassing 15 engineering disciplines with a Corporate membership of over 2 lakhs, and serving the nation for more than 9 decades. The IEI has its headquarters located in Kolkata with national presence through more than hundred Centres and several Overseas.
+
+                            <br>
+                            <br>
+                            The Institution was granted Royal Charter On September 9, 1935 by h the King George V, which was a momentous event for the Engineering Industry and education in India. The Royal Charter endowed the Institution with the responsibility to promote the general advancement of engineering amongst members and persons attached to the Institution. IEI has been recognized as Scientific and Industrial Research Organization by the Ministry of Science & Technology, Govt. of India and besides conducting its own research, provides Grant-in-Aid to UG/PG/ PhD students of Engineering Institutes & Universities. 
+The Institution of Engineers (India) is a first professional body to represent India in several International Bodies, such as the <b>World Mining Congress (WMC), World Federation of Engineering Organizations (WFEO), the Commonwealth Engineers’ Council (CEC), the Federation International du Beton (fib), and the Federation of Engineering Institutions of South and Central Asia (FEISCA)</b>. It also has bilateral agreements with a number of professional societies across the globe. 
+                           <br>
+                           <br>
+                           IEI holds the International Professional Engineers (IntPE) Register for India under the global International Professional Engineers Alliance (IntPEA). The Institution also wards the Professional Engineers (PE) Certification. 
+The Institution of Engineers (India) is a pioneer body to introduce, starting from 1928, continuing engineering education programme, successful completion of which is recognized as equivalent to a degree in engineering by the Government of India, the Union Public Service Commission, the State Governments and many Public / Private Sector organizations in the country. The Institution of Engineers (India), with its headquarters in Kolkata, India, is administered by a National Council with the President of IEI as its Head.
+Ever since its inception, IEI has been the forerunner in setting up national standards for promoting the country’s industrial base which culminated on the formation of the Indian Standard Institution (ISI), now called as Bureau of Indian Standards (BIS). IEI, in collaboration with Springer, regularly publishes peer-reviewed international journal in five series, covering fifteen engineering disciplines. 
+                        </div>
+
+                        <h4 class="title">History</h4>
+                        <div class="content">
+                           After First World war, the Industrialization were on rise and the engineering activity took a positive shape in India. As a consequence, need was felt to uphold the quality in products and operations of the Engineering domain. Accordingly Government of India formed an Indian Industrial Commission under the Chairmanship Sir Thomas Holland, the then Commerce member of the then Govt. of India. The commission recommended the establishment of an Institution as a professional body of engineers to ensure advancement of technology and uphold the quality of products in various stages of production.
+                            <br>
+                            <br>
+                            On the basis of the recommendation several meetings of the leading engineers were held in various parts of country and “Indian Society of Engineers” was formed in 03 Jan 1919 at Calcutta. Subsequently, rules and constitution were drafted and circulated nationwide for the all interested people. Finally, with gained momentum of the efforts undertaken, a meeting was held in 16 Jul 1919 at Shimla to consider all modification and additions and the name of the Society was changed to The Institution of Engineers (India).
+                        </div>
+
+                        <h4 class="title">Objective</h4>
+                        <div class="content">
+                            <ul class="course_list">
+                                <li class="justify-content-between d-flex">
+                                    <p>To promote the general advancement of engineering and their application</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>Grant certificate of competency for practice of Engineering Profession</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>Arrange and promote for settlement of disputes in Engineering by arbitration and act as or nominate arbitrators
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>Confer to the Government and other bodies the views regarding matters directly or indirectly affecting the Engineering profession
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>Promote study of Engineering through R & D activities and grants</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>Encourage elevate and recognise the technical knowledge and practice of individuals and organizations through scholarships, awards and other benefaction</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>Pioneer in providing Non-formal Engineering Education (popularly known as AMIE Exam) in India
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>Dissemination and updating of engineering and technological knowledge among its members, through Technical Activities</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>Inculcating and promoting amongst engineers and technologists a growing commitment to the social objectives of the profession
+</p>
+                                </li>
+                                 <li class="justify-content-between d-flex">
+                                    <p>Fostering national and international cooperation in engineering and technology
+</p>
+                                </li>
+                                 <li class="justify-content-between d-flex">
+                                    <p>Facilitates Continued Professional Development (CPD) </p>
+                                </li>
+                                 <li class="justify-content-between d-flex">
+                                    <p>To promote efficiency and honourable dealings to suppress malpractice in engineering.</p>
+                                </li>
+                                
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+
+
+<!--footer-->
+<div class="container-fluid">
+    <div class="row footer-top">
+        <div class="col-sm-4 text-center">
+            <h4 class="ft-text-title">CivilERA</h4>
+            
+            <h4 class="details">
+                <a class="contact" href="tel:+977-1-4107223">
+                    <i class="fa fa-phone" aria-hidden="true"></i> +98000 98000</a>
+                </h4>
+            </div>
+            <div class="col-sm-4 text-center border-left">
+                <h4 class="ft-text-title">Our Team</h4>
+                <div class="address-member">
+                    <p class="member">
+                        <b>Director</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Editor</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Reporter</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Reporter</b> : 
+                    </p>
+               </div>
+           </div>
+           <div class="col-sm-4 col-xs-12 text-center border-left">
+            <h4 class="ft-text-title">Quick Links>></h4>
+            <div class="pspt-dtls">
+                <a href="{% url 'events'  %}" class="about">Events</a>
+                <a href="{% url 'about_team'  %}" class="team">Team</a>
+                <a href="{% url 'gallery'  %}" class="advertise">Gallery</a>
+                <br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+	<div class="row ft-copyright pt-2 pb-2" style="padding-left: 25px;">
+		<div class="col-sm-4 text-pp-crt">copyright 2020 All  Rights Reserved</div>
+		<div class="col-sm-4 text-pp-crt-rg">Department of Civil Engineering</div>
+		<div class="col-sm-4 developer">
+			<a href="https://www.linkedin.com/mwlite/in/gaurav-kumar-jha-b27476167" target="_blank" class="text-pp-crt">Designed & Developed By : <b>G</b>aurav<b>J</b>ha</a>
+		</div>
+	</div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,224 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static '/css/ieib.css' %}">
+    <link rel="stylesheet" href="{% static '/css/footer.css' %}">
+    <title>aboutIEI/membership</title>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="/">CivilERA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="about/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'about_history'  %}">HISTORY</a>
+          <a class="dropdown-item" href="{% url 'about_vision'  %}">VISION</a>
+          <a class="dropdown-item" href="{% url 'about_team'  %}">TEAM</a>
+          <a class="dropdown-item" href="{% url 'about_alumni' %}">ALUMNI</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'events'  %}">Events</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'gallery'  %}">Gallery</a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="aboutIEI/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          AboutIEI
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url  'aboutIEI_benefits'  %}">IEI</a>
+          <a class="dropdown-item" href="{% url 'aboutIEI_membership'  %}">MEMBERSHIP</a>
+        </div>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'contactus' %}">Contactus</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+
+
+
+
+<!--about member-->
+ <section class="course_details_area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 course_details_left">
+                    <div class="main_image">
+                        <img class="img-fluid" src="img/courses/course-details.jpg" alt="">
+                    </div>
+                    <div class="content_wrapper">
+                        
+
+                        
+
+                        <h4 class="title">Perks of Being Member:
+</h4>
+                        <div class="content">
+                            <ul class="course_list">
+                                <li class="justify-content-between d-flex">
+                                    <p>1)Practice of Engineering Profession:
+A Corporate Member who has obtained Chartered Engineer’s Certificate from IEI possesses the platform to practice as self-employed consultant in Engineering Profession in India and abroad. This certification provides value addition during the empanelment as Valuer, Loss Assessor with various Government bodies and Financial Institutions. Corporate Members are entitled to receive Chartered Engineer certificate on payment of requisite fee. 
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>2) Registration as Professional Engineers:
+Professional Engineer Certification enhances the knowledge, skill and competency of engineering professionals and also elevates their career by making them a member of an elite group of engineers. The rise in demand of competent engineers in the country necessitates the importance of Professional Engineers for certifying the engineering plans, drawings etc. for any public works of the government departments</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>3.)Use of designatory letters
+The following table depicts the designatory letters that can be appended after name based on membership category and certification as per entitlement.
+
+</p>
+                                </li>
+                                
+
+                            </ul>
+                     <h4 class="title">Professional development granted under the umbrella of IE(I):
+</h4>
+                        <div class="content">
+                            <ul class="course_list">
+                                <li class="justify-content-between d-flex">
+                                    <p>1) Facilitates IEI members to undertake various training programs at Engineering Staff College of India (ESCI), Hyderabad, through Continual Professional Development (CPD).
+
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>2) Peer Network
+Share your expertise, develop your knowledge and contacts and broaden your career and professional horizons by involving with IEI. The IEI has more than hundred centres in the major cities and towns around the country, ensuring that there is a community of members near you. Technical activities in your local area enable you to meet the fellow professionals and enjoy benefits of your network with your peers.
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>3) Knowledge resources
+Facilities to use rich collections of the IEI library networks at any part of the country. Attend National & International Seminars, workshops conducted by IEI in different parts of the country at a concessional rate. Opportunity to participate in technical events e.g. seminars, Symposia, Conventions, Workshops etc. organized by various IEI centres at State, National and International levels at a concessional rate of 20%.
+
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>4) Access to Technical Publications
+E-access to IEI-Springer Journal and avail hardcopy of the same at a concessional rate.
+E-access to other technical publication e.g. IEI News, IEI Epitome.
+
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>5) Grants for Members
+IEI Members of various Educational Institutions are given preference in the disbursement of grant-in-Aid for R&D Activities.
+
+
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>6)Career Manager Coming Soon 
+Career Manager is a powerful, intuitive online tool which enables you to:
+Maintain your profile
+Update your skill areas
+Record your CPD
+Build your impressive CV
+To make yourself visible to the industry
+Managing program schedule
+
+
+</p>
+                                </li>
+                                <li class="justify-content-between d-flex">
+                                    <p>6) Career Advancement:
+Corporate Members are eligible for exemption from appearing in Section A and may appear directly in Section B in additional branch examination of IEI.
+
+
+</p>
+                                </li>
+                                
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+
+<!--footer-->
+<div class="container-fluid">
+    <div class="row footer-top">
+        <div class="col-sm-4 text-center">
+            <h4 class="ft-text-title">CivilERA</h4>
+            
+            <h4 class="details">
+                <a class="contact" href="tel:+977-1-4107223">
+                    <i class="fa fa-phone" aria-hidden="true"></i> +98000 98000</a>
+                </h4>
+            </div>
+            <div class="col-sm-4 text-center border-left">
+                <h4 class="ft-text-title">Our Team</h4>
+                <div class="address-member">
+                    <p class="member">
+                        <b>Director</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Editor</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Reporter</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Reporter</b> : 
+                    </p>
+               </div>
+           </div>
+           <div class="col-sm-4 col-xs-12 text-center border-left">
+            <h4 class="ft-text-title">Quick Links>></h4>
+            <div class="pspt-dtls">
+                <a href="{% url 'events'  %}" class="about">Events</a>
+                <a href="{% url 'about_team'  %}" class="team">Team</a>
+                <a href="{% url 'gallery'  %}" class="advertise">Gallery</a>
+                <br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+	<div class="row ft-copyright pt-2 pb-2" style="padding-left: 25px;">
+		<div class="col-sm-4 text-pp-crt">copyright 2020 All  Rights Reserved</div>
+		<div class="col-sm-4 text-pp-crt-rg">Department of Civil Engineering</div>
+		<div class="col-sm-4 developer">
+			<a href="https://www.linkedin.com/mwlite/in/gaurav-kumar-jha-b27476167" target="_blank" class="text-pp-crt">Designed & Developed By : <b>G</b>aurav<b>J</b>ha</a>
+		</div>
+	</div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

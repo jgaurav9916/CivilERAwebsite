@@ -1,0 +1,195 @@
+{% load static %}
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static '/css/footer.css' %}">
+  <link rel="stylesheet" href="{% static '/css/gallery.css' %}">
+  <title>Gallery</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="/">CivilERA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="about/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'about_history'  %}">HISTORY</a>
+          <a class="dropdown-item" href="{% url 'about_vision'  %}">VISION</a>
+          <a class="dropdown-item" href="{% url 'about_team'  %}">TEAM</a>
+          <a class="dropdown-item" href="{% url 'about_alumni' %}">ALUMNI</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'events'  %}">Events</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'gallery'  %}">Gallery</a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="aboutIEI/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          AboutIEI
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url  'aboutIEI_benefits'  %}">IEI</a>
+          <a class="dropdown-item" href="{% url 'aboutIEI_membership'  %}">MEMBERSHIP</a>
+        </div>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'contactus' %}">Contactus</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- Start Gallery -->
+  <section class="gallery" id="gallery">
+  	 <h2>Our Gallery</h2>
+  	<div class="content">
+  		 <div class="box wow slideInLeft">
+  		 	 <img src="{% static 'images/gallery1.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+  		 <div class="box wow slideInRight">
+  		 	 <img src="{% static 'images/gallery2.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+  		 <div class="box wow slideInLeft">
+  		 	 <img src="{% static 'images/gallery3.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+  		 
+       <div class="box wow slideInRight">
+  		 	 <img src="{% static 'images/gallery5.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInLeft">
+  		 	 <img src="{% static 'images/gallery6.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="{% static 'images/gallery7.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInLeft">
+  		 	 <img src="{% static 'images/gallery8.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="{% static 'images/gallery9.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInLeft">
+  		 	 <img src="{% static 'images/gallery10.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="{% static 'images/gallery11.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInLeft">
+  		 	 <img src="{% static 'images/gallery14.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="{% static 'images/gallery16.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInLeft">
+  		 	 <img src="{% static 'images/gallery12.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="{% static 'images/gallery13.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       <div class="box wow slideInRight">
+  		 	 <img src="{% static 'images/gallery4.jpg.jpg' %}" alt="gallery" />
+  		 </div>
+       
+  	</div>
+  </section>
+<!-- End Gallery -->
+
+
+
+<!--footer-->
+<div class="container-fluid">
+    <div class="row footer-top">
+        <div class="col-sm-4 text-center">
+            <h4 class="ft-text-title">CivilERA</h4>
+            
+            <h4 class="details">
+                <a class="contact" href="tel:+977-1-4107223">
+                    <i class="fa fa-phone" aria-hidden="true"></i> +98000 98000</a>
+                </h4>
+            </div>
+            <div class="col-sm-4 text-center border-left">
+                <h4 class="ft-text-title">Our Team</h4>
+                <div class="address-member">
+                    <p class="member">
+                        <b>Director</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Editor</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Reporter</b> : 
+                    </p>
+                    <p class="member">
+                        <b>Reporter</b> : 
+                    </p>
+               </div>
+           </div>
+           <div class="col-sm-4 col-xs-12 text-center border-left">
+            <h4 class="ft-text-title">Quick Links>></h4>
+            <div class="pspt-dtls">
+                <a href="{% url 'events'  %}" class="about">Events</a>
+                <a href="{% url 'about_team'  %}" class="team">Team</a>
+                <a href="{% url 'gallery'  %}" class="advertise">Gallery</a>
+                <br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+	<div class="row ft-copyright pt-2 pb-2" style="padding-left: 25px;">
+		<div class="col-sm-4 text-pp-crt">copyright 2020 All  Rights Reserved</div>
+		<div class="col-sm-4 text-pp-crt-rg">Department of Civil Engineering</div>
+		<div class="col-sm-4 developer">
+			<a href="https://www.linkedin.com/mwlite/in/gaurav-kumar-jha-b27476167" target="_blank" class="text-pp-crt">Designed & Developed By : <b>G</b>aurav<b>J</b>ha</a>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
